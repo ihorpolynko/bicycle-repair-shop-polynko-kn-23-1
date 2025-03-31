@@ -30,7 +30,6 @@ create table if not exists sklad
     place_id      int         not null
         primary key,
     tovar_id      int         null,
-    type_of_tovar varchar(45) null,
     nayavnist     varchar(4)  null,
     kilkist_tovar int         null
 );
