@@ -25,13 +25,23 @@ create table if not exists profit
     vutraru        int    null
 );
 
+create table if not exists tovar
+(
+    tovar_id       int         not null
+        primary key,
+    type_of_tovar  varchar(45) null,
+    prise_of_tovar double      null
+);
+
 create table if not exists sklad
 (
-    place_id      int         not null
+    place_id      int        not null
         primary key,
-    tovar_id      int         null,
-    nayavnist     varchar(4)  null,
-    kilkist_tovar int         null
+    tovar_id      int        null,
+    nayavnist     varchar(4) null,
+    kilkist_tovar int        null,
+    constraint tovar_id
+        foreign key (tovar_id) references tovar (tovar_id)
 );
 
 create trigger add_vutratu_insert
@@ -121,18 +131,6 @@ BEGIN
     END IF;
 END;
 
-create table if not exists tovar
-(
-    tovar_id       int         not null
-        primary key,
-    type_of_tovar  varchar(45) null,
-    prise_of_tovar double      null
-);
-
-alter table sklad
-    add constraint tovar_id
-        foreign key (tovar_id) references tovar (tovar_id);
-
 create table if not exists worker
 (
     worker_id       int         not null
@@ -220,22 +218,25 @@ BEGIN
 END;
 
 create view profit_view as
-select `lr5poylnko`.`profit`.`period`                                                            AS `period`,
-       (((sum(`lr5poylnko`.`profit`.`profit_kilkist`) - sum(`lr5poylnko`.`profit`.`vutraru`)) -
-         sum(`sum_zarplata_worker`.`sum_zarplata`)) -
-        sum(`sum_zarplata_master`.`sum_zarplata`))                                               AS `Чистий прибуток за кожний місяць`
-from ((`lr5poylnko`.`profit` join (select sum(`lr5poylnko`.`worker`.`zarplata_worker`) AS `sum_zarplata`
-                                   from `lr5poylnko`.`worker`) `sum_zarplata_worker`) join (select (7000 * count(`lr5poylnko`.`master`.`master_id`)) AS `sum_zarplata`
-                                                                                            from `lr5poylnko`.`master`) `sum_zarplata_master`)
-group by `lr5poylnko`.`profit`.`period`;
+select `kursova_polynko_kn_23_1`.`profit`.`period`                                     AS `period`,
+       (((`kursova_polynko_kn_23_1`.`profit`.`profit_kilkist` - `kursova_polynko_kn_23_1`.`profit`.`vutraru`) -
+         `sum_zarplata_worker`.`sum_zarplata`) -
+        `sum_zarplata_master`.`sum_zarplata`)                                          AS `Чистий прибуток за кожний місяць`
+from ((`kursova_polynko_kn_23_1`.`profit` join (select sum(`kursova_polynko_kn_23_1`.`worker`.`zarplata_worker`) AS `sum_zarplata`
+                                                from `kursova_polynko_kn_23_1`.`worker`) `sum_zarplata_worker`) join (select (14000 * count(`kursova_polynko_kn_23_1`.`master`.`master_id`)) AS `sum_zarplata`
+                                                                                                                      from `kursova_polynko_kn_23_1`.`master`) `sum_zarplata_master`)
+group by `kursova_polynko_kn_23_1`.`profit`.`period`, `kursova_polynko_kn_23_1`.`profit`.`profit_kilkist`,
+         `kursova_polynko_kn_23_1`.`profit`.`vutraru`, `sum_zarplata_worker`.`sum_zarplata`,
+         `sum_zarplata_master`.`sum_zarplata`;
 
 create view zamov_avg as
-select avg(`lr5poylnko`.`zamov`.`kilkist_tovar`) AS `AVG(kilkist_tovar)`
-from `lr5poylnko`.`zamov`;
+select avg(`kursova_polynko_kn_23_1`.`zamov`.`kilkist_tovar`) AS `AVG(kilkist_tovar)`
+from `kursova_polynko_kn_23_1`.`zamov`;
 
 create view zamov_counts as
-select `lr5poylnko`.`zamov`.`client_id` AS `client_id`, count(`lr5poylnko`.`zamov`.`zamov_id`) AS `zamov_count`
-from `lr5poylnko`.`zamov`
-group by `lr5poylnko`.`zamov`.`client_id`;
+select `kursova_polynko_kn_23_1`.`zamov`.`client_id`       AS `client_id`,
+       count(`kursova_polynko_kn_23_1`.`zamov`.`zamov_id`) AS `zamov_count`
+from `kursova_polynko_kn_23_1`.`zamov`
+group by `kursova_polynko_kn_23_1`.`zamov`.`client_id`;
 
 
