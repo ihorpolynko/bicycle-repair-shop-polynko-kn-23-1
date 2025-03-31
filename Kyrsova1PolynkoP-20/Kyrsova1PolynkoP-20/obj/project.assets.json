@@ -1516,11 +1516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RoRHaT\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
+      "projectUniqueName": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
       "projectName": "Kyrsova1PolynkoP-20",
-      "projectPath": "C:\\Users\\RoRHaT\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
+      "projectPath": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
       "packagesPath": "C:\\Users\\RoRHaT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RoRHaT\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\obj\\",
+      "outputPath": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

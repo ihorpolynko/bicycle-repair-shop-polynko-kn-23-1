@@ -30,7 +30,7 @@ namespace Kyrsova1PolynkoP_20
                     {
                         period = reader.GetInt32(0),
                         profit_kilkist = reader.IsDBNull(1) ? (int?)null : reader.GetInt32(1),
-                        vutraru = reader.IsDBNull(1) ? (int?)null : reader.GetInt32(2),
+                        vutraru = reader.IsDBNull(2) ? (int?)null : reader.GetInt32(2),
                     };
                     profits.Add(p);
                 }

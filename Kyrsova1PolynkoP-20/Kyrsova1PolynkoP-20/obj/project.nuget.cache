@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F6ZM5ZSJ+04=",
+  "dgSpecHash": "sxiIkIYFCE4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RoRHaT\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
+  "projectFilePath": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RoRHaT\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\RoRHaT\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
