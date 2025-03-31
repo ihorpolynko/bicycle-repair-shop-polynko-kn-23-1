@@ -6,12 +6,11 @@ namespace Kyrsova1PolynkoP_20
     class clientDAO
     {
         public List<Client> clients = new List<Client>();
-        string connectionstring = "datasource=127.0.0.1;username=root;password=4865922Mnip;database=lr5poylnko";
 
         public List<Client> getALLClients()
         {
             List<Client> clients = new List<Client>();
-            MySqlConnection connection = new MySqlConnection(connectionstring);
+            MySqlConnection connection = new MySqlConnection(DBConfig.ConnectionString);
             connection.Open();
             MySqlCommand command = new MySqlCommand("select * from client;", connection);
             using (MySqlDataReader reader = command.ExecuteReader())
@@ -33,7 +32,7 @@ namespace Kyrsova1PolynkoP_20
 
         internal int addClient(Client client)
         {
-            MySqlConnection connection = new MySqlConnection(connectionstring);
+            MySqlConnection connection = new MySqlConnection(DBConfig.ConnectionString);
             connection.Open();
             MySqlCommand command = new MySqlCommand();
             command.CommandText = "insert into client (client_id, client_pib, type_of_zamov) values(@client_id, @client_pib, @type_of_zamov);";
@@ -48,7 +47,7 @@ namespace Kyrsova1PolynkoP_20
 
         internal int deleteClient(Client client)
         {
-            MySqlConnection connection = new MySqlConnection(connectionstring);
+            MySqlConnection connection = new MySqlConnection(DBConfig.ConnectionString);
             connection.Open();
             MySqlCommand command = new MySqlCommand();
             command.CommandText = "delete from client WHERE (client_id = @client_id);";
@@ -60,7 +59,7 @@ namespace Kyrsova1PolynkoP_20
         }
         internal int updateClient(Client client)
         {
-            MySqlConnection connection = new MySqlConnection(connectionstring);
+            MySqlConnection connection = new MySqlConnection(DBConfig.ConnectionString);
             connection.Open();
             MySqlCommand command = new MySqlCommand();
             command.CommandText = "update client set client_pib = @client_pib, type_of_zamov = @type_of_zamov WHERE (client_id = @client_id);";

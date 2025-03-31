@@ -32,6 +32,7 @@
             dataGridView1 = new DataGridView();
             menuStrip1 = new MenuStrip();
             формаToolStripMenuItem = new ToolStripMenuItem();
+            очиститиToolStripMenuItem = new ToolStripMenuItem();
             вихідToolStripMenuItem = new ToolStripMenuItem();
             запитиToolStripMenuItem = new ToolStripMenuItem();
             загальніВідомостіПроКлієнтівToolStripMenuItem = new ToolStripMenuItem();
@@ -45,7 +46,6 @@
             label4 = new Label();
             textBox3 = new TextBox();
             button4 = new Button();
-            очиститиToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -72,8 +72,7 @@
             dataGridView1.GridColor = Color.FromArgb(64, 64, 64);
             dataGridView1.Location = new Point(29, 61);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(430, 301);
+            dataGridView1.Size = new Size(451, 301);
             dataGridView1.TabIndex = 10;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -83,7 +82,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { формаToolStripMenuItem, запитиToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(820, 24);
             menuStrip1.TabIndex = 12;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -96,12 +95,21 @@
             формаToolStripMenuItem.Size = new Size(57, 20);
             формаToolStripMenuItem.Text = "Форма";
             // 
+            // очиститиToolStripMenuItem
+            // 
+            очиститиToolStripMenuItem.BackColor = Color.FromArgb(64, 64, 64);
+            очиститиToolStripMenuItem.ForeColor = Color.FromArgb(255, 128, 0);
+            очиститиToolStripMenuItem.Name = "очиститиToolStripMenuItem";
+            очиститиToolStripMenuItem.Size = new Size(127, 22);
+            очиститиToolStripMenuItem.Text = "Очистити";
+            очиститиToolStripMenuItem.Click += очиститиToolStripMenuItem_Click;
+            // 
             // вихідToolStripMenuItem
             // 
             вихідToolStripMenuItem.BackColor = Color.FromArgb(64, 64, 64);
             вихідToolStripMenuItem.ForeColor = Color.FromArgb(255, 128, 0);
             вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            вихідToolStripMenuItem.Size = new Size(180, 22);
+            вихідToolStripMenuItem.Size = new Size(127, 22);
             вихідToolStripMenuItem.Text = "Вихід";
             вихідToolStripMenuItem.Click += вихідToolStripMenuItem_Click;
             // 
@@ -127,7 +135,7 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(64, 64, 64);
-            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             label3.ForeColor = Color.FromArgb(255, 128, 0);
             label3.Location = new Point(176, 32);
             label3.Name = "label3";
@@ -206,7 +214,7 @@
             label4.ForeColor = Color.FromArgb(255, 128, 0);
             label4.Location = new Point(486, 180);
             label4.Name = "label4";
-            label4.Size = new Size(96, 15);
+            label4.Size = new Size(97, 15);
             label4.TabIndex = 21;
             label4.Text = "Тип замовлення";
             // 
@@ -232,21 +240,12 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
-            // очиститиToolStripMenuItem
-            // 
-            очиститиToolStripMenuItem.BackColor = Color.FromArgb(64, 64, 64);
-            очиститиToolStripMenuItem.ForeColor = Color.FromArgb(255, 128, 0);
-            очиститиToolStripMenuItem.Name = "очиститиToolStripMenuItem";
-            очиститиToolStripMenuItem.Size = new Size(180, 22);
-            очиститиToolStripMenuItem.Text = "Очистити";
-            очиститиToolStripMenuItem.Click += очиститиToolStripMenuItem_Click;
-            // 
             // FormClient
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(820, 438);
             Controls.Add(button4);
             Controls.Add(label4);
             Controls.Add(textBox3);
