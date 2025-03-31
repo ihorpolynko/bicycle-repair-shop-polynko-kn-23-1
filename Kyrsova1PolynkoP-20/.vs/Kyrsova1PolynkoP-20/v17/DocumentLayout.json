@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\profitdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\profitdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\profit_viewdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\profit_viewdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\zapus_na_remontdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\zapus_na_remontdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\zamovdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\zamovdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\workerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\workerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\worker_tovarinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\worker_tovarinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\worker_tovarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\worker_tovarinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\tovardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\tovardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\sumzamovdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\sumzamovdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\sumzamov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\sumzamov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\skladdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\skladdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\masterdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\masterdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\generalclientinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\generalclientinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\generalclientinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\generalclientinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\detailinfozamovclientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\detailinfozamovclientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\kyrsova1polynkop-20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\kyrsova1polynkop-20\\kyrsova1polynkop-20\\clientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD3B9278-96FF-4435-83DF-E0A4EC330E6E}|Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20.csproj|solutionrelative:kyrsova1polynkop-20\\clientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "zamovDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\zamovDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\zamovDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\zamovDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\zamovDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:47.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "workerDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\workerDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\workerDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\workerDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\workerDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:42.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "worker_tovarInfoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\worker_tovarInfoDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\worker_tovarInfoDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\worker_tovarInfoDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\worker_tovarInfoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:36.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "worker_tovarInfo.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\worker_tovarInfo.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\worker_tovarInfo.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\worker_tovarInfo.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\worker_tovarInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:34.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tovarDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\tovarDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\tovarDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\tovarDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\tovarDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:26.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "sumZamovDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\sumZamovDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\sumZamovDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\sumZamovDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\sumZamovDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:20.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "skladDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\skladDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\skladDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\skladDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\skladDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:14.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SumZamov.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\SumZamov.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\SumZamov.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\SumZamov.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\SumZamov.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:12.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "profit_viewDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\profit_viewDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\profit_viewDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\profit_viewDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\profit_viewDAO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:59.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "profitDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\profitDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\profitDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\profitDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\profitDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgvxsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:04.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "zapus_na_remontDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\zapus_na_remontDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\zapus_na_remontDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\zapus_na_remontDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\zapus_na_remontDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:22:54.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "masterDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\masterDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\masterDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\masterDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\masterDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:54.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "generalClientInfoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\generalClientInfoDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\generalClientInfoDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\generalClientInfoDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\generalClientInfoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:49.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "generalClientInfo.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\generalClientInfo.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\generalClientInfo.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\generalClientInfo.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\generalClientInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "detailInfoZamovClientDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\detailInfoZamovClientDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\detailInfoZamovClientDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\detailInfoZamovClientDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\detailInfoZamovClientDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:27.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Form1.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\Form1.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:26.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "clientDAO.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\clientDAO.cs",
+              "RelativeDocumentMoniker": "Kyrsova1PolynkoP-20\\clientDAO.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\Kyrsova1PolynkoP-20\\Kyrsova1PolynkoP-20\\clientDAO.cs",
+              "RelativeToolTip": "Kyrsova1PolynkoP-20\\clientDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:21:19.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
