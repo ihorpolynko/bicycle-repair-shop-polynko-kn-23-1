@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kyrsova1PolynkoP-20")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1455e5217ccbc778ff0b71ecbc2dea4df5e780c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61577d483d9a240d0f9c21e4a4d8ad64976ec1c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kyrsova1PolynkoP-20")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kyrsova1PolynkoP-20")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
