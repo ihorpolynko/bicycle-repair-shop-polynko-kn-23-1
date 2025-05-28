@@ -110,6 +110,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="reportsDAO.cs" />
+    <Compile Include="FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyDetailsSales.cs" />
+    <Compile Include="MonthlyWorkerProfit.cs" />
     <Compile Include="Workers.cs" />
     <Compile Include="FormWorkers.cs">
       <SubType>Form</SubType>
@@ -239,6 +248,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProductDemandView.resx">
       <DependentUpon>FormProductDemandView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSignUpRepairs.resx">
       <DependentUpon>FormSignUpRepairs.cs</DependentUpon>

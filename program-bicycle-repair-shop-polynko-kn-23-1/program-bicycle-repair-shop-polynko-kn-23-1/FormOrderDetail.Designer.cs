@@ -30,7 +30,6 @@
         {
             this.label5 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.txtDetailID = new System.Windows.Forms.TextBox();
             this.txtDetailQuantity = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +45,7 @@
             this.очиститиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStripConnection = new System.Windows.Forms.MenuStrip();
+            this.lstDetailID = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.change_theme)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,13 +71,6 @@
             this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(157, 20);
             this.txtID.TabIndex = 47;
-            // 
-            // txtDetailID
-            // 
-            this.txtDetailID.Location = new System.Drawing.Point(129, 306);
-            this.txtDetailID.Name = "txtDetailID";
-            this.txtDetailID.Size = new System.Drawing.Size(157, 20);
-            this.txtDetailID.TabIndex = 45;
             // 
             // txtDetailQuantity
             // 
@@ -173,6 +166,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lstDetailID);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.lblResult);
             this.groupBox1.Controls.Add(this.btnAdd);
@@ -241,13 +235,20 @@
             this.menuStripConnection.TabIndex = 41;
             this.menuStripConnection.Text = "menuStripConnection";
             // 
+            // lstDetailID
+            // 
+            this.lstDetailID.FormattingEnabled = true;
+            this.lstDetailID.Location = new System.Drawing.Point(140, 53);
+            this.lstDetailID.Name = "lstDetailID";
+            this.lstDetailID.Size = new System.Drawing.Size(157, 21);
+            this.lstDetailID.TabIndex = 49;
+            // 
             // FormOrderDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(664, 367);
             this.Controls.Add(this.txtID);
-            this.Controls.Add(this.txtDetailID);
             this.Controls.Add(this.txtDetailQuantity);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
@@ -274,7 +275,6 @@
 
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtDetailID;
         private System.Windows.Forms.TextBox txtDetailQuantity;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
@@ -290,5 +290,6 @@
         private System.Windows.Forms.ToolStripMenuItem очиститиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStripConnection;
+        private System.Windows.Forms.ComboBox lstDetailID;
     }
 }

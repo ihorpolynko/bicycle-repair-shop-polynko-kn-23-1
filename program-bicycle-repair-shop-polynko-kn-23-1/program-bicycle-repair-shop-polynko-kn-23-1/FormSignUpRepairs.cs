@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,10 +28,18 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
 
         private void FormSignUpRepairs_Load(object sender, EventArgs e)
         {
+            LoadClients();
+            LoadWorkers();
+
             signuprepairsDAO surDAO = new signuprepairsDAO();
 
             bindingSource.DataSource = surDAO.getALLSignUpRepairs();
             dataGridView1.DataSource = bindingSource;
+
+            if (dataGridView1.Rows.Count > 0)
+            {
+                dataGridView1.FirstDisplayedScrollingRowIndex = dataGridView1.Rows.Count - 1;
+            }
         }
 
         private void change_theme_Click(object sender, EventArgs e)
@@ -51,8 +60,6 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         private void очиститиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             txtID.Clear();
-            txtWorkerID.Clear();
-            txtClientID.Clear();
             txtRepairReason.Clear();
             txtPayAmo.Clear();
             dtpOrderDate.Value = DateTime.Now;
@@ -77,8 +84,8 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
                 txtID.Text = row.Cells["sign_up_repairs_id"].Value.ToString();
-                txtWorkerID.Text = row.Cells["worker_id"].Value.ToString();
-                txtClientID.Text = row.Cells["client_id"].Value.ToString();
+                lstClientID.SelectedValue = Convert.ToInt32(row.Cells["client_id"].Value);
+                lstWorkerID.SelectedValue = Convert.ToInt32(row.Cells["worker_id"].Value);
                 txtRepairReason.Text = row.Cells["repair_reason"].Value.ToString();
 
                 var paymentDateVal = row.Cells["payment_date"].Value;
@@ -119,8 +126,8 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         {
             SignUpRepairs signUpRepair = new SignUpRepairs
             {
-                client_id = int.Parse(txtClientID.Text),
-                worker_id = int.Parse(txtWorkerID.Text),
+                client_id = Convert.ToInt32(lstClientID.SelectedValue),
+                worker_id = Convert.ToInt32(lstWorkerID.SelectedValue),
                 repair_reason = txtRepairReason.Text,
                 sign_up_date = dtpOrderDate.Value,
                 payment_amount = string.IsNullOrWhiteSpace(txtPayAmo.Text) ? (decimal?)null : decimal.Parse(txtPayAmo.Text),
@@ -147,8 +154,8 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             SignUpRepairs signUpRepair = new SignUpRepairs
             {
                 sign_up_repairs_id = int.Parse(txtID.Text),
-                client_id = int.Parse(txtClientID.Text),
-                worker_id = int.Parse(txtWorkerID.Text),
+                client_id = Convert.ToInt32(lstClientID.SelectedValue),
+                worker_id = Convert.ToInt32(lstWorkerID.SelectedValue),
                 repair_reason = txtRepairReason.Text,
                 sign_up_date = dtpOrderDate.Value,
                 payment_amount = string.IsNullOrWhiteSpace(txtPayAmo.Text) ? (decimal?)null : decimal.Parse(txtPayAmo.Text),
@@ -205,13 +212,42 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         {
             SignUpRepairs signUpRepair = new SignUpRepairs
             {
-                client_id = int.Parse(txtClientID.Text),
+                client_id = Convert.ToInt32(lstClientID.SelectedValue),
             };
 
             signuprepairsDAO supDAO = new signuprepairsDAO();
 
             bindingSource.DataSource = supDAO.getSearchSignUpRepairs(signUpRepair);
             dataGridView1.DataSource = bindingSource;
+        }
+        private void LoadClients()
+        {
+            using (var conn = new MySqlConnection(DBConfig.LoadConfig()))
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("SELECT client_id, pib FROM clients ORDER BY client_id DESC", conn);
+                var adapter = new MySqlDataAdapter(cmd);
+                var table = new DataTable();
+                adapter.Fill(table);
+                lstClientID.DataSource = table;
+                lstClientID.DisplayMember = "pib";
+                lstClientID.ValueMember = "client_id";
+            }
+        }
+
+        private void LoadWorkers()
+        {
+            using (var conn = new MySqlConnection(DBConfig.LoadConfig()))
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("SELECT worker_id, pib FROM workers ORDER BY worker_id DESC", conn);
+                var adapter = new MySqlDataAdapter(cmd);
+                var table = new DataTable();
+                adapter.Fill(table);
+                lstWorkerID.DataSource = table;
+                lstWorkerID.DisplayMember = "pib";
+                lstWorkerID.ValueMember = "worker_id";
+            }
         }
     }
 }

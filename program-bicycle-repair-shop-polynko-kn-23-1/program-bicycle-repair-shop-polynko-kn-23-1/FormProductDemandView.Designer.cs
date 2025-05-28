@@ -39,10 +39,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.change_theme = new System.Windows.Forms.PictureBox();
             this.btnShow = new System.Windows.Forms.Button();
             this.btnSearchByName = new System.Windows.Forms.Button();
             this.btnSearchByID = new System.Windows.Forms.Button();
+            this.change_theme = new System.Windows.Forms.PictureBox();
             this.menuStripConnection.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,14 +71,14 @@
             // очиститиToolStripMenuItem
             // 
             this.очиститиToolStripMenuItem.Name = "очиститиToolStripMenuItem";
-            this.очиститиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.очиститиToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.очиститиToolStripMenuItem.Text = "Очистити";
             this.очиститиToolStripMenuItem.Click += new System.EventHandler(this.очиститиToolStripMenuItem_Click);
             // 
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.вихідToolStripMenuItem.Text = "Повернутся назад";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
@@ -165,21 +165,9 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " ";
             // 
-            // change_theme
-            // 
-            this.change_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.change_theme.Image = global::program_bicycle_repair_shop_polynko_kn_23_1.Properties.Resources.to_dark_theme;
-            this.change_theme.Location = new System.Drawing.Point(615, 26);
-            this.change_theme.Name = "change_theme";
-            this.change_theme.Size = new System.Drawing.Size(40, 40);
-            this.change_theme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.change_theme.TabIndex = 42;
-            this.change_theme.TabStop = false;
-            this.change_theme.Click += new System.EventHandler(this.change_theme_Click);
-            // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(516, 33);
+            this.btnShow.Location = new System.Drawing.Point(564, 33);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(88, 48);
             this.btnShow.TabIndex = 63;
@@ -191,7 +179,7 @@
             // 
             this.btnSearchByName.Location = new System.Drawing.Point(344, 58);
             this.btnSearchByName.Name = "btnSearchByName";
-            this.btnSearchByName.Size = new System.Drawing.Size(166, 23);
+            this.btnSearchByName.Size = new System.Drawing.Size(214, 23);
             this.btnSearchByName.TabIndex = 61;
             this.btnSearchByName.Text = "Пошук за найменуванням";
             this.btnSearchByName.UseVisualStyleBackColor = true;
@@ -201,11 +189,23 @@
             // 
             this.btnSearchByID.Location = new System.Drawing.Point(344, 32);
             this.btnSearchByID.Name = "btnSearchByID";
-            this.btnSearchByID.Size = new System.Drawing.Size(166, 23);
+            this.btnSearchByID.Size = new System.Drawing.Size(214, 23);
             this.btnSearchByID.TabIndex = 60;
             this.btnSearchByID.Text = "Пошук за ID товару";
             this.btnSearchByID.UseVisualStyleBackColor = true;
             this.btnSearchByID.Click += new System.EventHandler(this.btnSearchByID_Click);
+            // 
+            // change_theme
+            // 
+            this.change_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.change_theme.Image = global::program_bicycle_repair_shop_polynko_kn_23_1.Properties.Resources.to_dark_theme;
+            this.change_theme.Location = new System.Drawing.Point(615, 26);
+            this.change_theme.Name = "change_theme";
+            this.change_theme.Size = new System.Drawing.Size(40, 40);
+            this.change_theme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.change_theme.TabIndex = 42;
+            this.change_theme.TabStop = false;
+            this.change_theme.Click += new System.EventHandler(this.change_theme_Click);
             // 
             // FormProductDemandView
             // 

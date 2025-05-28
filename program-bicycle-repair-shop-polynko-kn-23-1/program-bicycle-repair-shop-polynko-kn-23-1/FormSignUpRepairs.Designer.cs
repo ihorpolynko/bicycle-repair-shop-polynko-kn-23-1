@@ -48,15 +48,15 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtWorkerID = new System.Windows.Forms.TextBox();
             this.menuStripConnection = new System.Windows.Forms.MenuStrip();
             this.формаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.детальнішеПроЗамовленняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.очиститиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.txtClientID = new System.Windows.Forms.TextBox();
             this.change_theme = new System.Windows.Forms.PictureBox();
+            this.lstWorkerID = new System.Windows.Forms.ComboBox();
+            this.lstClientID = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStripConnection.SuspendLayout();
@@ -87,6 +87,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lstClientID);
+            this.groupBox1.Controls.Add(this.lstWorkerID);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtPayAmo);
@@ -228,7 +230,7 @@
             this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtPassword.AutoSize = true;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.txtPassword.Location = new System.Drawing.Point(52, 55);
+            this.txtPassword.Location = new System.Drawing.Point(52, 56);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(86, 13);
             this.txtPassword.TabIndex = 35;
@@ -250,7 +252,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(64, 81);
+            this.label2.Location = new System.Drawing.Point(65, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 34;
@@ -295,13 +297,6 @@
             this.label1.TabIndex = 52;
             this.label1.Text = "Таблиця \"Запис на ремонт\"";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txtWorkerID
-            // 
-            this.txtWorkerID.Location = new System.Drawing.Point(130, 272);
-            this.txtWorkerID.Name = "txtWorkerID";
-            this.txtWorkerID.Size = new System.Drawing.Size(205, 20);
-            this.txtWorkerID.TabIndex = 54;
             // 
             // menuStripConnection
             // 
@@ -351,13 +346,6 @@
             this.txtID.Size = new System.Drawing.Size(205, 20);
             this.txtID.TabIndex = 56;
             // 
-            // txtClientID
-            // 
-            this.txtClientID.Location = new System.Drawing.Point(130, 298);
-            this.txtClientID.Name = "txtClientID";
-            this.txtClientID.Size = new System.Drawing.Size(205, 20);
-            this.txtClientID.TabIndex = 55;
-            // 
             // change_theme
             // 
             this.change_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -370,6 +358,22 @@
             this.change_theme.TabStop = false;
             this.change_theme.Click += new System.EventHandler(this.change_theme_Click);
             // 
+            // lstWorkerID
+            // 
+            this.lstWorkerID.FormattingEnabled = true;
+            this.lstWorkerID.Location = new System.Drawing.Point(140, 52);
+            this.lstWorkerID.Name = "lstWorkerID";
+            this.lstWorkerID.Size = new System.Drawing.Size(205, 21);
+            this.lstWorkerID.TabIndex = 64;
+            // 
+            // lstClientID
+            // 
+            this.lstClientID.FormattingEnabled = true;
+            this.lstClientID.Location = new System.Drawing.Point(140, 77);
+            this.lstClientID.Name = "lstClientID";
+            this.lstClientID.Size = new System.Drawing.Size(205, 21);
+            this.lstClientID.TabIndex = 65;
+            // 
             // FormSignUpRepairs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -378,10 +382,8 @@
             this.Controls.Add(this.change_theme);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtWorkerID);
             this.Controls.Add(this.menuStripConnection);
             this.Controls.Add(this.txtID);
-            this.Controls.Add(this.txtClientID);
             this.Controls.Add(this.groupBox1);
             this.MaximumSize = new System.Drawing.Size(1004, 489);
             this.MinimumSize = new System.Drawing.Size(1004, 489);
@@ -417,7 +419,6 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtWorkerID;
         private System.Windows.Forms.MenuStrip menuStripConnection;
         private System.Windows.Forms.ToolStripMenuItem формаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem детальнішеПроЗамовленняToolStripMenuItem;
@@ -425,11 +426,12 @@
         private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtClientID;
         private System.Windows.Forms.RichTextBox txtRepairReason;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPayAmo;
         private System.Windows.Forms.DateTimePicker dtpOrderDate;
+        private System.Windows.Forms.ComboBox lstClientID;
+        private System.Windows.Forms.ComboBox lstWorkerID;
     }
 }

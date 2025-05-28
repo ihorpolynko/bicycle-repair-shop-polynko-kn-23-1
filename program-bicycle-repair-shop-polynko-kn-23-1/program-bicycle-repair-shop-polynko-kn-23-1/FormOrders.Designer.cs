@@ -28,15 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtWorkerID = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.формаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.детальнішеПроЗамовленняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.очиститиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtClientID = new System.Windows.Forms.TextBox();
             this.menuStripConnection = new System.Windows.Forms.MenuStrip();
             this.btnDelete = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,23 +47,17 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblResult = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lstWorkerID = new System.Windows.Forms.ComboBox();
+            this.lstClientID = new System.Windows.Forms.ComboBox();
             this.cbPayment = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dtpOrderDate = new System.Windows.Forms.DateTimePicker();
             this.change_theme = new System.Windows.Forms.PictureBox();
-            this.детальнішеПроЗамовленняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStripConnection.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.change_theme)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtWorkerID
-            // 
-            this.txtWorkerID.Location = new System.Drawing.Point(130, 352);
-            this.txtWorkerID.Name = "txtWorkerID";
-            this.txtWorkerID.Size = new System.Drawing.Size(205, 20);
-            this.txtWorkerID.TabIndex = 46;
             // 
             // label5
             // 
@@ -94,6 +87,13 @@
             this.формаToolStripMenuItem.Name = "формаToolStripMenuItem";
             this.формаToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.формаToolStripMenuItem.Text = "Форма";
+            // 
+            // детальнішеПроЗамовленняToolStripMenuItem
+            // 
+            this.детальнішеПроЗамовленняToolStripMenuItem.Name = "детальнішеПроЗамовленняToolStripMenuItem";
+            this.детальнішеПроЗамовленняToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.детальнішеПроЗамовленняToolStripMenuItem.Text = "Детальніше про замовлення";
+            this.детальнішеПроЗамовленняToolStripMenuItem.Click += new System.EventHandler(this.детальнішеПроЗамовленняToolStripMenuItem_Click);
             // 
             // очиститиToolStripMenuItem
             // 
@@ -137,13 +137,6 @@
             this.label1.TabIndex = 43;
             this.label1.Text = "Таблиця \"Замовлення\"";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // txtClientID
-            // 
-            this.txtClientID.Location = new System.Drawing.Point(130, 326);
-            this.txtClientID.Name = "txtClientID";
-            this.txtClientID.Size = new System.Drawing.Size(205, 20);
-            this.txtClientID.TabIndex = 45;
             // 
             // menuStripConnection
             // 
@@ -255,6 +248,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lstWorkerID);
+            this.groupBox1.Controls.Add(this.lstClientID);
             this.groupBox1.Controls.Add(this.cbPayment);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.dtpOrderDate);
@@ -272,6 +267,22 @@
             this.groupBox1.Size = new System.Drawing.Size(821, 190);
             this.groupBox1.TabIndex = 49;
             this.groupBox1.TabStop = false;
+            // 
+            // lstWorkerID
+            // 
+            this.lstWorkerID.FormattingEnabled = true;
+            this.lstWorkerID.Location = new System.Drawing.Point(140, 89);
+            this.lstWorkerID.Name = "lstWorkerID";
+            this.lstWorkerID.Size = new System.Drawing.Size(205, 21);
+            this.lstWorkerID.TabIndex = 57;
+            // 
+            // lstClientID
+            // 
+            this.lstClientID.FormattingEnabled = true;
+            this.lstClientID.Location = new System.Drawing.Point(140, 63);
+            this.lstClientID.Name = "lstClientID";
+            this.lstClientID.Size = new System.Drawing.Size(205, 21);
+            this.lstClientID.TabIndex = 56;
             // 
             // cbPayment
             // 
@@ -314,24 +325,15 @@
             this.change_theme.TabStop = false;
             this.change_theme.Click += new System.EventHandler(this.change_theme_Click);
             // 
-            // детальнішеПроЗамовленняToolStripMenuItem
-            // 
-            this.детальнішеПроЗамовленняToolStripMenuItem.Name = "детальнішеПроЗамовленняToolStripMenuItem";
-            this.детальнішеПроЗамовленняToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
-            this.детальнішеПроЗамовленняToolStripMenuItem.Text = "Детальніше про замовлення";
-            this.детальнішеПроЗамовленняToolStripMenuItem.Click += new System.EventHandler(this.детальнішеПроЗамовленняToolStripMenuItem_Click);
-            // 
             // FormOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtWorkerID);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtClientID);
             this.Controls.Add(this.change_theme);
             this.Controls.Add(this.menuStripConnection);
             this.Controls.Add(this.groupBox1);
@@ -353,8 +355,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtWorkerID;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.ToolStripMenuItem формаToolStripMenuItem;
@@ -362,7 +362,6 @@
         private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtClientID;
         private System.Windows.Forms.PictureBox change_theme;
         private System.Windows.Forms.MenuStrip menuStripConnection;
         private System.Windows.Forms.Button btnDelete;
@@ -379,5 +378,7 @@
         private System.Windows.Forms.DateTimePicker dtpOrderDate;
         private System.Windows.Forms.CheckBox cbPayment;
         private System.Windows.Forms.ToolStripMenuItem детальнішеПроЗамовленняToolStripMenuItem;
+        private System.Windows.Forms.ComboBox lstWorkerID;
+        private System.Windows.Forms.ComboBox lstClientID;
     }
 }

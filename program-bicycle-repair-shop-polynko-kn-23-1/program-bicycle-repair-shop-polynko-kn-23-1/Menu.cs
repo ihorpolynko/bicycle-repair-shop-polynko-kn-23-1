@@ -76,5 +76,12 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             formWorkers.Show();
             this.Hide();
         }
+
+        private void фінансовийЗвітToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReport = new FormReport();
+            formReport.Show();
+            this.Hide();
+        }
     }
 }

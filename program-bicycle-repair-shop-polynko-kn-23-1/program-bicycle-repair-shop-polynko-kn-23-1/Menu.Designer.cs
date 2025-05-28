@@ -43,6 +43,7 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnWorkers = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.фінансовийЗвітToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.change_theme)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -65,6 +66,7 @@
             // формаToolStripMenuItem
             // 
             this.формаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.фінансовийЗвітToolStripMenuItem,
             this.вийтиЗМенюToolStripMenuItem});
             this.формаToolStripMenuItem.Name = "формаToolStripMenuItem";
             this.формаToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
@@ -73,7 +75,7 @@
             // вийтиЗМенюToolStripMenuItem
             // 
             this.вийтиЗМенюToolStripMenuItem.Name = "вийтиЗМенюToolStripMenuItem";
-            this.вийтиЗМенюToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.вийтиЗМенюToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.вийтиЗМенюToolStripMenuItem.Text = "Вийти з меню";
             this.вийтиЗМенюToolStripMenuItem.Click += new System.EventHandler(this.вийтиЗМенюToolStripMenuItem_Click);
             // 
@@ -199,6 +201,13 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Таблиця \"Працівники\"";
             // 
+            // фінансовийЗвітToolStripMenuItem
+            // 
+            this.фінансовийЗвітToolStripMenuItem.Name = "фінансовийЗвітToolStripMenuItem";
+            this.фінансовийЗвітToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.фінансовийЗвітToolStripMenuItem.Text = "Фінансовий звіт";
+            this.фінансовийЗвітToolStripMenuItem.Click += new System.EventHandler(this.фінансовийЗвітToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,6 +258,7 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnWorkers;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.ToolStripMenuItem фінансовийЗвітToolStripMenuItem;
     }
 }
 

@@ -28,6 +28,11 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
 
             bindingSource.DataSource = esurDAO.getALLexpandedSignUpRepairsView();
             dataGridView1.DataSource = bindingSource;
+
+            if (dataGridView1.Rows.Count > 0)
+            {
+                dataGridView1.FirstDisplayedScrollingRowIndex = dataGridView1.Rows.Count - 1;
+            }
         }
 
         private void change_theme_Click(object sender, EventArgs e)

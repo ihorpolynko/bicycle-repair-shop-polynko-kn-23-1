@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,20 +20,27 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         {
             InitializeComponent();
             this.orderId = orderId;
-        }
-
-        private void FormOrderDetail_Load(object sender, EventArgs e)
-        {
             ThemeStyles.ApplyTheme(this);
             ThemeStyles.Change_theme_img(change_theme);
             dataGridView1.Left = (dataGridView1.Width) / 5;
             lblResult.Text = "";
 
             txtID.Text = orderId.ToString();
+        }
+
+        private void FormOrderDetail_Load(object sender, EventArgs e)
+        {
+            LoadDetails();
+
             ordersDetailDAO odDAO = new ordersDetailDAO();
 
             bindingSource.DataSource = odDAO.getALLOrdersDetail();
             dataGridView1.DataSource = bindingSource;
+
+            if (dataGridView1.Rows.Count > 0)
+            {
+                dataGridView1.FirstDisplayedScrollingRowIndex = dataGridView1.Rows.Count - 1;
+            }
         }
 
         private void change_theme_Click(object sender, EventArgs e)
@@ -46,7 +54,6 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
 
         private void очиститиToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            txtDetailID.Clear();
             txtDetailQuantity.Clear();
         }
 
@@ -60,7 +67,7 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             OrdersDetail ordersDetail = new OrdersDetail
             {
                 order_id = int.Parse(txtID.Text),
-                detail_id = int.Parse(txtDetailID.Text),
+                detail_id = Convert.ToInt32(lstDetailID.SelectedValue),
                 quantity_details = int.Parse(txtDetailQuantity.Text)
             };
 
@@ -85,7 +92,7 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             OrdersDetail ordersDetail = new OrdersDetail
             {
                 order_id = int.Parse(txtID.Text),
-                detail_id = int.Parse(txtDetailID.Text),
+                detail_id = Convert.ToInt32(lstDetailID.SelectedValue),
                 quantity_details = int.Parse(txtDetailQuantity.Text)
             };
 
@@ -110,7 +117,7 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             OrdersDetail ordersDetail = new OrdersDetail
             {
                 order_id = int.Parse(txtID.Text),
-                detail_id = int.Parse(txtDetailID.Text)
+                detail_id = Convert.ToInt32(lstDetailID.SelectedValue),
             };
 
             ordersDetailDAO odDAO = new ordersDetailDAO();
@@ -135,8 +142,23 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
-                txtDetailID.Text = row.Cells["detail_id"].Value.ToString();
+                lstDetailID.SelectedValue = Convert.ToInt32(row.Cells["detail_id"].Value);
                 txtDetailQuantity.Text = row.Cells["quantity_details"].Value.ToString();
+            }
+        }
+
+        private void LoadDetails()
+        {
+            using (var conn = new MySqlConnection(DBConfig.LoadConfig()))
+            {
+                conn.Open();
+                var cmd = new MySqlCommand("SELECT detail_id, name FROM details ORDER BY detail_id DESC", conn);
+                var adapter = new MySqlDataAdapter(cmd);
+                var table = new DataTable();
+                adapter.Fill(table);
+                lstDetailID.DataSource = table;
+                lstDetailID.DisplayMember = "name";
+                lstDetailID.ValueMember = "detail_id";
             }
         }
     }
