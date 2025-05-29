@@ -57,7 +57,7 @@
             this.txtPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtPassword.AutoSize = true;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.txtPassword.Location = new System.Drawing.Point(36, 67);
+            this.txtPassword.Location = new System.Drawing.Point(37, 68);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(94, 13);
             this.txtPassword.TabIndex = 35;
@@ -79,7 +79,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(50, 93);
+            this.label2.Location = new System.Drawing.Point(51, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 13);
             this.label2.TabIndex = 34;
@@ -99,7 +99,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(959, 179);
+            this.dataGridView1.Size = new System.Drawing.Size(1059, 179);
             this.dataGridView1.TabIndex = 53;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -108,7 +108,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(325, 45);
+            this.label1.Location = new System.Drawing.Point(375, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(330, 13);
             this.label1.TabIndex = 52;
@@ -128,7 +128,7 @@
             this.формаToolStripMenuItem});
             this.menuStripConnection.Location = new System.Drawing.Point(0, 0);
             this.menuStripConnection.Name = "menuStripConnection";
-            this.menuStripConnection.Size = new System.Drawing.Size(983, 24);
+            this.menuStripConnection.Size = new System.Drawing.Size(1083, 24);
             this.menuStripConnection.TabIndex = 50;
             this.menuStripConnection.Text = "menuStripConnection";
             // 
@@ -167,7 +167,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(29, 41);
+            this.label5.Location = new System.Drawing.Point(30, 42);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 13);
             this.label5.TabIndex = 57;
@@ -194,10 +194,8 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtID);
             this.groupBox1.Location = new System.Drawing.Point(-10, 261);
-            this.groupBox1.MaximumSize = new System.Drawing.Size(1004, 154);
-            this.groupBox1.MinimumSize = new System.Drawing.Size(1004, 154);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1004, 154);
+            this.groupBox1.Size = new System.Drawing.Size(1102, 154);
             this.groupBox1.TabIndex = 58;
             this.groupBox1.TabStop = false;
             // 
@@ -235,7 +233,7 @@
             // 
             this.change_theme.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.change_theme.Image = global::program_bicycle_repair_shop_polynko_kn_23_1.Properties.Resources.to_dark_theme;
-            this.change_theme.Location = new System.Drawing.Point(932, 30);
+            this.change_theme.Location = new System.Drawing.Point(1032, 30);
             this.change_theme.Name = "change_theme";
             this.change_theme.Size = new System.Drawing.Size(40, 40);
             this.change_theme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -247,14 +245,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 405);
+            this.ClientSize = new System.Drawing.Size(1083, 405);
             this.Controls.Add(this.change_theme);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStripConnection);
             this.Controls.Add(this.groupBox1);
-            this.MaximumSize = new System.Drawing.Size(999, 444);
-            this.MinimumSize = new System.Drawing.Size(999, 444);
+            this.MaximumSize = new System.Drawing.Size(1099, 444);
+            this.MinimumSize = new System.Drawing.Size(1099, 444);
             this.Name = "FormExpandedOrderDetailView";
             this.Text = "FormExpandedOrderDetailView";
             this.Load += new System.EventHandler(this.FormExpandedOrderDetailView_Load);

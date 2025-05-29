@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\formorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\formorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\reportsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\reportsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\formorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\formorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|c:\\users\\rorhat\\documents\\github\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\themestyles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F94D6750-1D30-4668-8465-7596642F431D}|program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1.csproj|solutionrelative:program-bicycle-repair-shop-polynko-kn-23-1\\themestyles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,66 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAADwv1EAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormOrders.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAA4wOQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:06:47.998Z",
+              "WhenOpened": "2025-05-29T18:48:59.338Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs",
-              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\Menu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:06:30.516Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "reportsDAO.cs",
-              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\reportsDAO.cs",
-              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\reportsDAO.cs",
-              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\reportsDAO.cs",
-              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\reportsDAO.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwDgAAAABAAAAAAAAAA==",
+              "Title": "FormOrders.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\FormOrders.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:59:56.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T18:48:58.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormReport.cs",
-              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wBUAAAA6AAAAAAAAAA==",
+              "Title": "ThemeStyles.cs",
+              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\ThemeStyles.cs",
+              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\ThemeStyles.cs",
+              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\ThemeStyles.cs",
+              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\ThemeStyles.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwL8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:43:36.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormReport.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "RelativeDocumentMoniker": "program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs",
-              "ToolTip": "C:\\Users\\RoRHaT\\Documents\\GitHub\\bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "program-bicycle-repair-shop-polynko-kn-23-1\\FormReport.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:36:29.098Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-05-29T18:47:11.528Z"
             }
           ]
         }

@@ -6,10 +6,8 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
 {
     public static class ThemeStyles
     {
-        // Флаг для відслідковування поточної теми
         public static bool isDarkTheme = false;
 
-        // Кольори для світлої теми
         private static readonly Color LightBackground = Color.LightGray;
         private static readonly Color LightTextColor = Color.Orange;
         private static readonly Color LightButtonColor = Color.WhiteSmoke;
@@ -31,7 +29,6 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         private static readonly Color LightRichTextBoxTextColor = Color.Orange;
 
 
-        // Кольори для темної теми
         private static readonly Color DarkBackground = Color.FromArgb(40, 40, 40);
         private static readonly Color DarkTextColor = Color.Orange;
         private static readonly Color DarkButtonColor = Color.FromArgb(70, 70, 70);
@@ -52,10 +49,8 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
         private static readonly Color DarkRichTextBoxColor = Color.Black;
         private static readonly Color DarkRichTextBoxTextColor = Color.Orange;
 
-        // Шрифт (жирний)
         private static readonly Font BoldFont = new Font("Microsoft Sans Serif", 8, FontStyle.Bold);
 
-        // Метод для застосування стилю до всіх контролів форми
         public static void ApplyTheme(Control parent)
         {
             Color backgroundColor = isDarkTheme ? DarkBackground : LightBackground;
@@ -148,11 +143,10 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
 
 
                 if (control.HasChildren)
-                    ApplyTheme(control); // Рекурсивно для усіх дочерні елементів
+                    ApplyTheme(control);
             }
         }
 
-        // Метод застосування стилю до MenuStrip
         private static void ApplyMenuStripStyle(MenuStrip menuStrip, Color backgroundColor, Color textColor)
         {
             menuStrip.BackColor = backgroundColor;
@@ -165,7 +159,6 @@ namespace program_bicycle_repair_shop_polynko_kn_23_1
             }
         }
 
-        // Метод застосування стилю до кожного пункту меню
         private static void ApplyMenuItemStyle(ToolStripMenuItem menuItem, Color backgroundColor, Color textColor)
         {
             menuItem.BackColor = backgroundColor;
